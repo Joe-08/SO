@@ -11,7 +11,7 @@ plt.plot(x, d, label='Ticket')
 
 plt.xlabel('Número de threads')
 plt.ylabel('Tiempo')
-plt.ylim([0,0.1])
+plt.ylim([0,0.06])
 plt.title('Gráfico\n Tiempo vs Threads')
 plt.legend()
 plt.show()
